@@ -22,7 +22,10 @@ This is a semantic search–based book recommendation system that uses natural l
 - **Pandas**
 
 ---
-
+[![Run on Replit](https://replit.com/badge/github/BusraRafa/Semantic-Book-Recommender)](https://replit.com/new/github/BusraRafa/Semantic-Book-Recommender)
+---
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/BusraRafa/Semantic-Book-Recommender)
+---
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
