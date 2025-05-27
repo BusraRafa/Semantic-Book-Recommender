@@ -20,7 +20,13 @@ This is a semantic search–based book recommendation system that uses natural l
 - **FAISS**
 - **Gradio**
 - **Pandas**
+---
+## 🔐 Environment Setup (Replit & Gitpod Users)
 
+To run this project on **Replit** or **Gitpod**:
+
+1. Copy the contents of `.env.example` into a new file named `.env` in the root directory.
+2. Paste your Hugging Face token or OpenAI API key
 ---
 [![Run on Replit](https://replit.com/badge/github/BusraRafa/Semantic-Book-Recommender)](https://replit.com/new/github/BusraRafa/Semantic-Book-Recommender)
 ---
