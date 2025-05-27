@@ -1,0 +1,5 @@
+tasks:
+  - name: Run Gradio App
+    command: |
+      pip install -r requirements.txt
+      python gradio-dashboard.py
