@@ -18,7 +18,7 @@ import gradio as gr
 
 load_dotenv()
 
-books = pd.read_csv("books_with_emotions.csv")
+books = pd.read_csv("Semantic_Book_Recommender/books_with_emotions.csv")
 books["large_thumbnail"] = books["thumbnail"] + "&fife=w800"
 books["large_thumbnail"] = np.where(
     books["large_thumbnail"].isna(),
@@ -27,7 +27,7 @@ books["large_thumbnail"] = np.where(
 )
 
 # Fix encoding issue by forcing utf-8
-raw_documents = TextLoader("tagged_description.txt", encoding="utf-8").load()
+raw_documents = TextLoader("Semantic_Book_Recommender/tagged_description.txt", encoding="utf-8").load()
 
 #raw_documents = TextLoader("tagged_description.txt").load()
 text_splitter = CharacterTextSplitter(separator="\n", chunk_size=0, chunk_overlap=0)
