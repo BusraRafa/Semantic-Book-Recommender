@@ -43,7 +43,7 @@ cd Semantic-Book-Recommender
 ### 2. Create a Virtual Environment (optional but recommended)
 ```bash
 python -m venv myenv
-source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+myenv\Scripts\activate.bat
 ```
 ### 3. Install Dependencies
 A requirements.txt file containing all the project dependencies is provided as part of this repo.
