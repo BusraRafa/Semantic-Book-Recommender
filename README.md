@@ -39,11 +39,12 @@ To run this project on **Replit** or **Gitpod**:
 ```bash
 git clone https://github.com/BusraRafa/Semantic-Book-Recommender.git
 cd Semantic-Book-Recommender
-```
+```  
 ### 2. Create a Virtual Environment (optional but recommended)
 ```bash
 python -m venv myenv
-myenv\Scripts\activate.bat
+source myenv/bin/activate  # For Linux/macOS
+myenv\Scripts\activate     # For Windows
 ```
 ### 3. Install Dependencies
 A requirements.txt file containing all the project dependencies is provided as part of this repo.
